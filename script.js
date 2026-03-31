@@ -32,3 +32,5 @@ async function searchPais() {
 }
 
 button.addEventListener("click", searchPais);
+
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js'); }

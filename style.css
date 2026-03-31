@@ -15,7 +15,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background: #1e88e5;
+    background: #05974e;
     color: white;
 }
 
@@ -47,14 +47,14 @@ main {
     font-size: 16px;
     border: none;
     border-radius: 6px;
-    background: #1e88e5;
+    background: #05974e;
     color: white;
     cursor: pointer;
     transition: 0.2s;
 }
 
 .search-button:hover {
-    background: #1565c0;
+    background: #05974e;
 }
 
 
