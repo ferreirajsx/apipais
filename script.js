@@ -29,6 +29,7 @@ async function searchPais() {
 
     const listaLinguas = Object.values(country.languages);
     linguas.innerHTML = "Línguas: " + listaLinguas.join(", ");
+    navigator.vibrate(200)
 }
 
 button.addEventListener("click", searchPais);
