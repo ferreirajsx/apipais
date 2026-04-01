@@ -7,7 +7,7 @@
     "background_color": "#f4f6f9",
     "icons": [
         {
-            "src": "img/icons/planetalegal22.png",
+            "src": "img/icons/apple-touch-icon.png",
             "sizes": "192x192",
             "type": "image/png"
         },
