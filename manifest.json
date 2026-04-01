@@ -7,12 +7,12 @@
     "background_color": "#f4f6f9",
     "icons": [
         {
-            "src": "img/icons/planetalegal2.png",
+            "src": "img/icons/planetalegal22.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "img/icons/planetalegal.png",
+            "src": "img/icons/planetamisquelegal.png",
             "sizes": "512x512",
             "type": "image/png"
         }
