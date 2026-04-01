@@ -1,4 +1,4 @@
-const CACHE = 'meu-app-v2';
+const CACHE = 'meu-app-v5';
 const ARQUIVOS = ['/', '/index.html', '/style.css', '/script.js'];
 
 self.addEventListener('install', e => {
