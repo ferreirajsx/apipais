@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
+    
     <title>Pesquisa de Países</title>
 
     <link rel="manifest" href="manifest.json" />
@@ -14,34 +14,33 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Países" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <link rel="apple-touch-icon" sizes="192x192" href="img/icons/planetalegal22.png" />
+    <link rel="apple-touch-icon" href="img/icons/planetalegal22.png" />
+</head>
 
-<head>
+<body>
+    <header>
+        <h1>Pesquisa de paises</h1>
+    </header>
 
-    <body>
-        <header>
-            <h1>Pesquisa de paises</h1>
-        </header>
+    <main>
+        <h2>Escreva Um País</h2>
+        <input class="search-input" type="text" name="" id="" placeholder="Ex: Peru">
+        <button class="search-button">Pesquisar</button>
 
-        <main>
-            <h2>Escreva Um País</h2>
-            <input class="search-input" type="text" name="" id="" placeholder="Ex: Peru">
-            <button class="search-button">Pesquisar</button>
-
-            <div class="div-pais">
-                <h1 class="pais-nome"></h1>
-                <img class="pais-bandeira" src="" alt="">
-                <p class="pais-capital"></p>
-                <p class="pais-populacao"></p>
-                <p class="pais-linguas"></p>
-            </div>
-        </main>
-
+        <div class="div-pais">
+            <h1 class="pais-nome"></h1>
+            <img class="pais-bandeira" src="" alt="">
+            <p class="pais-capital"></p>
+            <p class="pais-populacao"></p>
+            <p class="pais-linguas"></p>
+        </div>
+    </main>
 
 
-        <footer>Feito por Lucas Ferreira</footer>
 
-        <script src="script.js"></script>
-    </body>
+    <footer>Feito por Lucas Ferreira</footer>
+
+    <script src="script.js"></script>
+</body>
 
 </html>
