@@ -1,17 +1,20 @@
 {
     "name": "Pesquisa de Países",
     "short_name": "Países",
-    "start_url": "/",
-    "display": "standalone", "theme_color": "#079185",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "theme_color": "#079185",
     "background_color": "#f4f6f9",
     "icons": [
         {
             "src": "img/icons/planetalegal2.png",
-            "sizes": "192x192"
+            "sizes": "192x192",
+            "type": "image/png"
         },
         {
             "src": "img/icons/planetalegal.png",
-            "sizes": "512x512"
+            "sizes": "512x512",
+            "type": "image/png"
         }
     ]
 }
